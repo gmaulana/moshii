@@ -1,15 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.collapsible');
-  var instances = M.Collapsible.init(elems, options);
-});
-
-// Or with jQuery
-
-// $(document).ready(function(){
-//   $('.collapsible').collapsible();
-// });
-
-var elem = document.querySelector('.collapsible.expandable');
-var instance = M.Collapsible.init(elem, {
-  accordion: false
+$(document).ready(function(){
+  $('.modal').modal();
 });

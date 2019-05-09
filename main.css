@@ -1,0 +1,76 @@
+.im1 {
+    text-align: center;
+}
+
+.jumbotron2 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* Header Parallax Element Style*/ 
+.paral {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+     
+    /* Paragrapgh for Parallax Section */ 
+    .paral p {
+    font-size: 24px;
+    color:#f5f5f5;
+    text-align: center;
+    line-height: 60px;
+    }
+     
+    /* Heading for Parallax Section */ 
+    .paral h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 100px;
+    }
+     
+    /* Image for Parallax Section */ 
+    .paralsec {
+    background-image: url("https://news.gsu.edu/files/2017/11/iStock-516189065.jpg");
+    }
+     
+    .paralsec1 {
+    background-image: url("https://images.unsplash.com/photo-1514897575457-c4db467cf78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");}
+     
+    .paralsec2 {
+    background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+    }
+     
+    /* Add more images for more sections */
+     
+    /* Remove Bottom Margin from Jumbotron */
+    .jumbotron{margin-bottom: 0;}
+     
+    /* Footer */
+    .wn-footer {
+    padding: 2.5rem 0;
+    text-align: center;
+    color: white;
+    background-color: #607D8B;
+    border-top: .05rem solid #e5e5e5;
+    }
+     
+    .wn-footer a {
+    color: yellow;
+    }
+
+.navbars {
+    background-color: #040411;
+}
+
+.abc {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.gm {
+    padding-top: 30px;
+}
